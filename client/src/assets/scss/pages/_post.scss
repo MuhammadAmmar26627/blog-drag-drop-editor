@@ -1,0 +1,40 @@
+.postContainer{
+
+
+
+  .title{
+    font-size: 3.5rem;
+    color: rgb(47, 53, 53);
+    font-family: fell,Georgia,Cambria,"Times New Roman",Times,serif;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  .about{
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+
+    *{
+      display: inline;
+    }
+  }
+
+  .featuredImage{
+    max-height: 350px;
+  }
+
+
+  .postContent{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+
+  }
+}
+
+
+.contentCenter{
+  display: flex;
+  justify-content: center!important;
+  align-items: center!important;
+}
